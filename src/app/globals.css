@@ -22,7 +22,7 @@
   }
 
   .btn-primary {
-    @apply bg-[#2364a5] text-white hover:bg-[#1a4b7c] shadow-lg hover:shadow-xl;
+    @apply bg-[#ca9c4f] text-white hover:bg-[#1a4b7c] shadow-lg hover:shadow-xl;
   }
 
   .btn-secondary {
@@ -126,7 +126,7 @@
 
   /* CTA box styles */
   .cta-box {
-    @apply bg-[#2364a5] text-white p-6 rounded-xl text-center border-b-4 border-[#73b23d];
+    @apply bg-black text-white p-6 rounded-xl text-center border-b-4 border-[#ca9c4f];
   }
 
   /* Footer styles */
@@ -135,11 +135,11 @@
   }
 
   .footer-section h3 {
-    @apply font-bold text-[#2364a5] mb-2;
+    @apply font-bold text-[#ca9c4f] mb-2;
   }
 
   .footer-map {
-    @apply mt-6 bg-gray-200 rounded-lg h-48 flex items-center justify-center border-2 border-[#73b23d];
+    @apply mt-6 bg-gray-200 rounded-lg h-48 flex items-center justify-center border-2 border-[#ca9c4f];
   }
 
   /* Clinic photos grid */
@@ -149,7 +149,7 @@
 
   /* Sticky CTA styles */
   .sticky-cta {
-    @apply fixed bottom-0 left-0 right-0 bg-[#2364a5] text-white p-4 z-50 transform translate-y-full transition-transform duration-300;
+    @apply fixed bottom-0 left-0 right-0 bg-black text-white p-4 z-50 transform translate-y-full transition-transform duration-300;
   }
 
   .sticky-cta.visible {
@@ -475,7 +475,7 @@ select:focus {
   appearance: none;
   width: 20px;
   height: 20px;
-  background: #2364a5;
+  background: #ca9c4f;
   border: 2px solid white;
   border-radius: 50%;
   cursor: pointer;
@@ -485,7 +485,7 @@ select:focus {
 .sliderimg .slider::-moz-range-thumb {
   width: 20px;
   height: 20px;
-  background: #2364a5;
+  background: #ca9c4f;
   border: 2px solid white;
   border-radius: 50%;
   cursor: pointer;

@@ -7,7 +7,7 @@ export default function StickyCTA({ isVisible, onBookAppointment }: StickyCtaPro
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-brandBlue text-white p-4 z-50 transition-transform duration-300">
+    <div className="fixed bottom-0 left-0 right-0 bg-black text-white p-4 z-50 transition-transform duration-300">
       <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
         <div className="text-center sm:text-left">
           <h3 className="font-bold text-lg">Ready to Transform Your Smile?</h3>

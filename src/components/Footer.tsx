@@ -17,12 +17,12 @@ export default function Footer() {
 
         <div className="grid md:grid-cols-3 gap-8 text-center md:text-left mb-8">
           <div>
-            <h3 className="font-bold text-[#2364a5] mb-2 md:text-lg">Contact Us</h3>
-            <a href="tel:+917838831325" className="block text-[#2364a5] font-bold md:text-lg hover:text-black transition-colors">Call: 7838831325</a>
+            <h3 className="font-bold text-[#ca9c4f] mb-2 md:text-lg">Contact Us</h3>
+            <a href="tel:+917838831325" className="block text-[#ca9c4f] font-bold md:text-lg hover:text-black transition-colors">Call: 7838831325</a>
           </div>
 
           <div>
-            <h3 className="font-bold text-[#2364a5] mb-2 md:text-lg">Clinic Timings</h3>
+            <h3 className="font-bold text-[#ca9c4f] mb-2 md:text-lg">Clinic Timings</h3>
             <p className="text-gray-700 md:text-lg">
               11:00 AM – 7:30 PM<br />
               (Call / WhatsApp to book)
@@ -30,12 +30,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-bold text-[#2364a5] mb-2 md:text-lg">Location</h3>
+            <h3 className="font-bold text-[#ca9c4f] mb-2 md:text-lg">Location</h3>
             <a
               href="https://maps.app.goo.gl/pn7qFTeLFGM8RKnK9"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-700 font-bold hover:text-[#2364a5] transition-colors cursor-pointer block"
+              className="text-gray-700 font-bold hover:text-[#ca9c4f] transition-colors cursor-pointer block"
             >
               📍 Delhi Dental Lounge<br />
               Basement, Sector 17/C, Dwarka,<br />

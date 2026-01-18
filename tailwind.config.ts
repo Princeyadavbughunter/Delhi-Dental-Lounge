@@ -9,11 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        darkGreen: "#c4971b", // Updated to new brand Gold
+        darkGreen: "#ca9c4f", // Updated to new brand Gold
         lightCream: "rgb(255, 247, 229)",
         yellow: "rgb(205, 159, 82)",
-        brandBlue: "#1a1a1a", // Updated to light black for buttons
-        brandGreen: "#c4971b", // Added alias for clarity
+        brandBlue: "#ca9c4f", // Updated to new brand Gold
+        brandGreen: "#ca9c4f", // Added alias for clarity
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Inter", "system-ui", "sans-serif"],

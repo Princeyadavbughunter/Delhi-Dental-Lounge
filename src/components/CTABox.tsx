@@ -4,11 +4,11 @@ interface CTABoxProps {
 
 export default function CTABox({ onBookAppointment }: CTABoxProps) {
   return (
-    <section className="bg-darkGreen text-white p-6">
+    <section className="bg-black text-white p-6">
       <h2 className="text-xl font-bold text-center mb-4">
         <em>Professional Braces & Aligner Services</em>
       </h2>
-      <hr className="border-[#73b23d] mb-4" />
+      <hr className="border-[#ca9c4f] mb-4" />
 
       <p className="text-lg text-white mb-4 text-center">
         <u><strong>Professional Consultation & Digital scan with Our Principal Dentist.</strong></u>

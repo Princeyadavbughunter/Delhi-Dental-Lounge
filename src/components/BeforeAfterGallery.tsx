@@ -25,7 +25,7 @@ export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGal
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-8">
-          <div className="text-[#2364a5] text-sm md:text-base font-medium mb-2">
+          <div className="text-[#ca9c4f] text-sm md:text-base font-medium mb-2">
             Delhi Dental Lounge
           </div>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -54,7 +54,7 @@ export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGal
         {/* CTA Box */}
         <div className="text-center bg-white p-6 md:p-8 rounded-xl shadow-lg mt-8">
           <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-            Let Us Brighten Your <span className="text-[#2364a5]">Smile!</span>
+            Let Us Brighten Your <span className="text-[#ca9c4f]">Smile!</span>
           </h3>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
             Helping patients achieve good dental health & beautiful smile is a privilege & responsibility. For over 11 years, we proudly provided the best dental experience in Dwarka. Our comfort-first approach is designed to meet the needs of you & your entire family.

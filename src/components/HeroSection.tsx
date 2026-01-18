@@ -10,7 +10,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
     <section className="p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-6 leading-tight">
         Transform Your Smile With<br />
-        <span className="text-[#2364a5]">Delhi Dental Lounge</span>
+        <span className="text-[#ca9c4f]">Delhi Dental Lounge</span>
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
@@ -26,13 +26,13 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
         {/* Special Offer Section */}
         <div className="bg-gradient-to-r from-black to-gray-800 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1 flex flex-col justify-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#73b23d]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#ca9c4f]">
             Perfect Healthy Smile
           </h2>
           <h3 className="text-xl md:text-2xl font-semibold mb-6 text-white">
             Transform Your Smile with Expert Dental Care
           </h3>
-          <div className="space-y-3 text-lg md:text-xl font-medium text-[#73b23d]">
+          <div className="space-y-3 text-lg md:text-xl font-medium text-[#ca9c4f]">
             <p>✔ Precise & Painless Treatments</p>
             <p>✔ All Specialists Available</p>
             <p>✔ EMI Available on Cards</p>
@@ -61,7 +61,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       {/* Why Choose Us Section */}
       <div className="mb-8">
         <h3 className="text-xl md:text-3xl font-bold text-center text-gray-900 mb-6">
-          Why choose <span className="text-[#73b23d]">Delhi Dental Lounge?</span>
+          Why choose <span className="text-[#ca9c4f]">Delhi Dental Lounge?</span>
         </h3>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 mb-6">
@@ -73,7 +73,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
             { icon: ShieldCheck, title: "Ethical Plans", desc: "Long-term results" }
           ].map((usp, index) => (
             <div key={index} className="text-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow md:p-6">
-              <usp.icon className="w-12 h-12 text-[#c4971b] mx-auto mb-2" />
+              <usp.icon className="w-12 h-12 text-[#ca9c4f] mx-auto mb-2" />
               <h4 className="font-bold text-sm md:text-base text-gray-900 mb-1">{usp.title}</h4>
               <p className="text-xs md:text-sm text-gray-600">{usp.desc}</p>
             </div>
@@ -82,19 +82,19 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       </div>
 
       <div className="bg-gray-50 p-4 md:p-8 rounded-lg md:max-w-3xl md:mx-auto">
-        <h3 className="font-bold text-[#2364a5] mb-3 md:text-xl">Our Highlights</h3>
+        <h3 className="font-bold text-[#ca9c4f] mb-3 md:text-xl">Our Highlights</h3>
         <ul className="space-y-2 mb-4">
           <li className="flex items-start gap-2">
-            <span className="text-[#73b23d]">✔</span>
+            <span className="text-[#ca9c4f]">✔</span>
             <span className="text-sm md:text-base">Led by Dr. Saloni Malik</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-[#73b23d]">✔</span>
+            <span className="text-[#ca9c4f]">✔</span>
             <span className="text-sm md:text-base">Technology-driven dental treatments</span>
           </li>
 
           <li className="flex items-start gap-2">
-            <span className="text-[#73b23d]">✔</span>
+            <span className="text-[#ca9c4f]">✔</span>
             <span className="text-sm md:text-base">Strong focus on patient care</span>
           </li>
         </ul>

@@ -20,7 +20,7 @@ export default function Header({ onBookAppointment }: HeaderProps) {
             href="https://maps.app.goo.gl/Hn6cLXVWCAa6SYkZ6"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs md:text-sm text-black mb-2 md:mb-0 hover:text-[#2364a5] transition-colors cursor-pointer block"
+            className="text-xs md:text-sm text-black mb-2 md:mb-0 hover:text-[#ca9c4f] transition-colors cursor-pointer block"
           >
             📍 Delhi Dental Lounge
             Basement, Sector 17/C, Dwarka,

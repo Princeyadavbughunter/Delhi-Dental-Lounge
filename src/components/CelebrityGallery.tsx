@@ -13,7 +13,7 @@ export default function CelebrityGallery() {
     return (
         <section className="py-12 px-4 md:px-8 lg:px-12 bg-white">
             <div className="max-w-6xl mx-auto">
-                <h2 className="text-2xl md:text-4xl font-bold text-center text-[#2364a5] mb-2">
+                <h2 className="text-2xl md:text-4xl font-bold text-center text-[#ca9c4f] mb-2">
                     Celebrity Smiles
                 </h2>
                 <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">

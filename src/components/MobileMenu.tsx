@@ -10,7 +10,7 @@ export default function MobileMenu() {
     <div className="md:hidden">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="p-2 rounded-md text-gray-600 hover:text-[#c4971b]"
+        className="p-2 rounded-md text-gray-600 hover:text-[#ca9c4f]"
       >
         {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
       </button>
@@ -20,28 +20,28 @@ export default function MobileMenu() {
           <nav className="px-4 py-2 space-y-2">
             <a
               href="#about"
-              className="block py-2 text-gray-600 hover:text-[#c4971b] font-medium"
+              className="block py-2 text-gray-600 hover:text-[#ca9c4f] font-medium"
               onClick={() => setIsOpen(false)}
             >
               About
             </a>
             <a
               href="#services"
-              className="block py-2 text-gray-600 hover:text-[#c4971b] font-medium"
+              className="block py-2 text-gray-600 hover:text-[#ca9c4f] font-medium"
               onClick={() => setIsOpen(false)}
             >
               Services
             </a>
             <a
               href="#testimonials"
-              className="block py-2 text-gray-600 hover:text-[#c4971b] font-medium"
+              className="block py-2 text-gray-600 hover:text-[#ca9c4f] font-medium"
               onClick={() => setIsOpen(false)}
             >
               Testimonials
             </a>
             <a
               href="#contact"
-              className="block py-2 text-gray-600 hover:text-[#c4971b] font-medium"
+              className="block py-2 text-gray-600 hover:text-[#ca9c4f] font-medium"
               onClick={() => setIsOpen(false)}
             >
               Contact
