@@ -13,16 +13,12 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
-        <div className="relative rounded-lg h-48 md:h-[400px] mb-6 md:mb-0 md:flex-1 overflow-hidden shadow-lg bg-black">
-          <video
-            src="/images/results/hero_video.mp4"
-            poster="/images/results/hero_thumbnail.png"
+        <div className="relative rounded-lg h-48 md:h-[400px] mb-6 md:mb-0 md:flex-1 overflow-hidden shadow-lg">
+          <img
+            src="/images/implant/Transparent-Dental-Aligner.webp"
+            alt="Transparent Dental Aligner"
             className="w-full h-full object-cover rounded-lg"
-            controls
-            playsInline
-          >
-            Your browser does not support the video tag.
-          </video>
+          />
         </div>
 
         {/* Special Offer Section */}

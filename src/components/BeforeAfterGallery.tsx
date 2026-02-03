@@ -23,7 +23,7 @@ export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGal
       poster: '/images/patent/thumbnail_3.png',
     },
     {
-      src: '/images/patent/IMG_9163.MP4',
+      src: '/images/patent/WhatsApp Video 2026-01-30 at 10.50.01 PM.mp4',
       poster: '/images/patent/thumbnail_4.png',
     },
   ];
